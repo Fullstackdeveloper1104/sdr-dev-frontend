@@ -1,0 +1,34 @@
+
+
+
+
+
+#animateButton {
+	position: absolute;
+	top:0px;
+	transition: transform 0.5s ease-in-out;
+  }
+  
+  #animateButton2 {
+	position: absolute;
+	top:60px;
+	transition: transform 0.5s ease-in-out;
+  }
+  
+  #animateButton3 {
+	position: absolute;
+	top:120px;
+	transition: transform 0.5s ease-in-out;
+  }
+  
+  #animateButton4 {
+	position: absolute;  
+	top:180px;
+	transition: transform 0.5s ease-in-out;
+  }
+  
+  .myclass{
+	position: relative;
+	top:100px;
+  }
+  

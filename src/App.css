@@ -1,0 +1,123 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.swiper.team {
+    padding-bottom: 50px !important;
+   
+  }
+  /* Swiper Navigation Styles */
+  .swiper.team  .swiper-button-next,
+  .swiper.team  .swiper-button-prev {
+    color: #fff;
+    font-size: 18px;
+    /* Set the background color of your navigation arrows */
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    display: flex;
+  
+    justify-content: center;
+    position: absolute;
+    bottom: 1%;
+    
+    z-index: 10;
+    cursor: pointer;
+  }
+
+
+  
+  .swiper.team  .swiper-button-next {
+    right: 0% !important;
+  }
+
+  
+  .swiper.team  .swiper-pagination-bullet{
+    border-radius: 0% !important;
+    height: 3px !important;
+    width: 2rem !important;
+  }
+
+
+
+  .swiper.contact {
+    padding-bottom: 20px !important;
+    position:unset !important
+  }
+  .swiper.contact  .swiper-button-next,
+  .swiper.contact  .swiper-button-prev {
+    color: #fff;
+    font-size: 50px;
+    /* Set the background color of your navigation arrows */
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    display: flex;
+  
+    justify-content: center;
+    position: absolute;
+    top: 50%;
+    transform: scaleY(1.2);
+    z-index: 10;
+    cursor: pointer;
+  }
+
+  .swiper.contact  .swiper-button-next {
+    right: 2% !important;
+  }
+
+  .swiper.contact  .swiper-button-prev {
+    left: 2% !important;
+  }
+
+  .swiper.contact  .swiper-pagination{
+   
+    bottom: 21px !important
+  }
+
+
+
+  .typed {
+    font-size: 100%;
+    text-align: left;
+  
+    vertical-align: text-bottom;
+  }
+  
+  .typed::after {
+    content: "❚";
+    font-family: Arial, sans-serif;
+    font-size: 100%;
+    line-height: 20px;
+    font-weight: 900;
+    animation: blink 0.75s step-end infinite;
+  }
+  @keyframes blink {
+    from,
+    to {
+      color: transparent;
+    }
+    50% {
+      color: rgba(41, 38, 38, 0.579);
+    }
+  }
+  
+
+
+  .tab.reorder {
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+  
+  h1 {
+    color: white;
+    font-weight: 400;
+  }
+ 
+ 
+  select option {
+    text-align: center;
+  
+    background-color: #fff;
+    color: #333;
+  }
